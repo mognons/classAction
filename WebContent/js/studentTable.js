@@ -10,6 +10,7 @@ $(document).ready(function() {
         selectingCheckboxes: false, //Show checkboxes on first column
         selectOnRowClick: true, //Enable this to only select using checkboxes
         pageSizeChangeArea: false,
+		jqueryuiTheme: true,
 		actions : {
 			listAction : 'listStudentAction',
             createAction : 'createStudentAction',

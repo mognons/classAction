@@ -5,14 +5,16 @@
 <head>
 </head>
 <body>
-	<div class="main-header" style="position: relative">
-		<h1>
-			<a href="home.action">class<span class="light">Action</span></a>
-		</h1>
+	<div class="ui-widget-content" style="position:relative;">
 		<h2>
+		<span>
+			<a href="home.action">class<span class="light">Action</span></a>
+		</span>
+		<span>
 			<a href="profileLink"> <s:property value="user.userFirstname"></s:property>
 				<s:property value="user.userLastname"></s:property>
 			</a>
+		</span>
 		</h2>
 	</div>
 </body>

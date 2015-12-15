@@ -12,6 +12,7 @@ function jtableDocuments(corso, modulo) {
 			// checkboxes
 			pageSizeChangeArea : false,
 			openChildAsAccordion : true,
+			jqueryuiTheme: true,
 			title : 'Documents for selected course/module',
 			actions : {
 				listAction : 'listDocumentsAction'

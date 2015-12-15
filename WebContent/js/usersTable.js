@@ -10,6 +10,7 @@ $(document).ready(function() {
         selectOnRowClick: false, //Enable this to only select using checkboxes
         pageSizeChangeArea: false,
         openChildAsAccordion: true,
+		jqueryuiTheme: true,
 		actions : {
 			listAction : 'listUserAction',
             updateAction : 'updateUserAction',

@@ -11,6 +11,7 @@ function jtableClass(corso, modulo, startDate) {
 			selectingCheckboxes : true, // Show checkboxes on first column
 			selectOnRowClick : false, // Enable this to only select using // checkboxes
 			pageSizeChangeArea : false,
+			jqueryuiTheme: true,
 			actions : {
 				listAction : 'listclassRegisterAction',
 				updateAction : 'updateclassRegisterAction'

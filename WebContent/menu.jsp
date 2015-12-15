@@ -40,17 +40,17 @@
 		<ul id="verticalMenu">
 			<li onclick="window.location='coursesLink';">Courses</li>
 			<li class="ui-state-disabled">Classes</li>
-			<li><a href="tableLink"></a>Students</li>
+			<li onclick="window.location='tableLink';">Students</li>
 			<li>-</li>
-			<li><a href="welcomeLink"></a>Activities</li>
-			<li><a href="calendarLink"></a>Agenda</li>
+			<li onclick="window.location='welcomeLink';">Activities</li>
+			<li onclick="window.location='calendarLink';">Agenda</li>
 			<li>-</li>
 			<s:if test="%{#isAdmin}">
-				<li><a href="usersLink"></a>Users Management</li>
-				<li><a href="filemanagerLink"></a>Docs Management</li>
+				<li onclick="window.location='usersLink';">Users Management</li>
+				<li onclick="window.location='filemanagerLink';">Docs Management</li>
 			</s:if>
 			<li>-</li>
-			<li><a href="Logout"></a>Logout</li>
+			<li onclick="window.location='Logout.action';">Logout</li>
 		</ul>
 	</div>
 	<script type="text/javascript">

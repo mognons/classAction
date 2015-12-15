@@ -306,12 +306,12 @@
 	<div id="pop-up" style="display:none;">
 		<iframe style="width:98%;height:98%;" id="modalDialogBox" src=""></iframe>
 	</div>
-	<div id="selectionForm" class="course-selection">
+	<div id="selectionForm" class="ui-widget-content" >
 		Available courses: &nbsp;<select id="myCourses"
 			onchange="$('#calendar').fullCalendar( 'refetchEvents' );"></select>
 	</div>
-	<div id='calendar'></div>
-	<div id="external-events" class="external-events">
+	<div class="ui-widget-content" id='calendar'></div>
+	<div id="external-events" class="ui-widget-content" >
 		<table ALIGN="center">
 			<tr>
 				<td colspan="5" align="center">General events</td>

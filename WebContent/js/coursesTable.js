@@ -73,6 +73,7 @@ $(document).ready(function() {
 		// checkboxes
 		pageSizeChangeArea: false,
 		openChildAsAccordion: true,
+		jqueryuiTheme: true,
 		actions : {
 			listAction : 'listCoursesAction',
 			createAction : 'createCoursesAction',
