@@ -301,7 +301,6 @@
 
 </head>
 <body>
-	<!-- 	<div class='site-container'> -->
 	<div id="dialog" title="System message"></div>
 	<div id="pop-up" style="display:none;">
 		<iframe style="width:98%;height:98%;" id="modalDialogBox" src=""></iframe>
@@ -325,6 +324,5 @@
 			</tr>
 		</table>
 	</div>
-	<!-- 	</div> -->
 </body>
 </html>
